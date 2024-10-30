@@ -8,7 +8,7 @@ Este projeto é um semáforo simples desenvolvido para demonstrar o funcionament
 
 Você pode acessar o projeto diretamente através do link abaixo:
 
-[Semáforo Simples no Tinkercad](https://www.tinkercad.com/things/3STnfMrgrrO-semaforo-simples/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits)
+[Semáforo Simples no Tinkercad](https://www.tinkercad.com/things/3STnfMrgrrO-semaforo-simples)
 
 ## Características
 
