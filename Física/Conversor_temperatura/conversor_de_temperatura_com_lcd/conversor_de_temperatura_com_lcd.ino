@@ -38,9 +38,9 @@ void loop() {
   sensor.requestTemperatures();
   // A temperatura em Celsius para o dispositivo 1 no índice 0 (é possivel ligar varios sensores usando a mesma porta do arduino)
   float leitura = sensor.getTempCByIndex(0);
-  float temperaturac = leitura;
-  float temperaturaK = leitura + 273.15; // Converte Celsius para Kelvin
-  float temperaturaF = (temperaturac * 1,8) + 32.0; // Converte Celsius para Fahrenheit
+  temperaturac = leitura;
+  temperaturaK = leitura + 273.15; // Converte Celsius para Kelvin
+  temperaturaF = (temperaturac * 1,8) + 32.0; // Converte Celsius para Fahrenheit
 
   lcd.clear(); // Limpa o display
   lcd.setCursor(3, 0); // Coluna | Linha
