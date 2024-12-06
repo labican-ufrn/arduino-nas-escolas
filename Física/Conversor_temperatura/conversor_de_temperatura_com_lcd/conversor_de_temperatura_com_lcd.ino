@@ -20,7 +20,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
   //inicialização do lcd
-  lcd.begin();
+  lcd.init();
   //inicialização do sensor
   sensor.begin();
   //inicialização do terminal
@@ -40,7 +40,7 @@ void loop() {
   float leitura = sensor.getTempCByIndex(0);
   temperaturac = leitura;
   temperaturaK = leitura + 273.15; // Converte Celsius para Kelvin
-  temperaturaF = (temperaturac * 1,8) + 32.0; // Converte Celsius para Fahrenheit
+  temperaturaF = (temperaturac * 1.8) + 32.0; // Converte Celsius para Fahrenheit
 
   lcd.clear(); // Limpa o display
   lcd.setCursor(3, 0); // Coluna | Linha

@@ -35,7 +35,7 @@ void loop() {
   float leitura = sensor.getTempCByIndex(0);
   temperaturac = leitura;
   temperaturaK = leitura + 273.15; // Converte Celsius para Kelvin
-  temperaturaF = (temperaturac * 1,8) + 32.0; // Converte Celsius para Fahrenheit
+  temperaturaF = (temperaturac * 1.8) + 32.0; // Converte Celsius para Fahrenheit
 
   Serial.println("Temperatura em Celsius (C):" + String(temperaturac,3)); //Exibe no terminal
   digitalWrite(led_verde, HIGH); //Liga led
