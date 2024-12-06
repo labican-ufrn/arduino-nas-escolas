@@ -24,6 +24,7 @@ void setup() {
   //inicialização do sensor
   sensor.begin();
   //inicialização do terminal
+  lcd.setBacklight(HIGH);
   Serial.begin(9600);
   pinMode(led_verde,OUTPUT);
   pinMode(led_azul,OUTPUT);
